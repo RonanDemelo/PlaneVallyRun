@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6797892679526627552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3521221712008159999}
+  - component: {fileID: 7784363835544195464}
+  m_Layer: 0
+  m_Name: LevelBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3521221712008159999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6797892679526627552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7784363835544195464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6797892679526627552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b1038cbe2901fc41b4b23131bc66d28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainPathLength: 8
+  sidePathLength: 9
+  sidePathAmount: 7
+  corridorChance: 0.55
+  stackingCorridorChance: 0.183
+  lootRoomChance: 0.193
+  startRoomType: {fileID: 7973053371279775161, guid: ec44196dc51ddf74097c60a2e581af2a, type: 3}
+  endRoomType: {fileID: 7973053371279775161, guid: ae7ee5238c8d94040b70f5fd9db52281, type: 3}
+  lootRoomType: {fileID: 7973053371279775161, guid: 38c7908174285ca4087eba9e3a0904f6, type: 3}
+  corridorTypes:
+  - {fileID: 7973053371279775161, guid: 68e0279444b71854b9076a031cbffdc3, type: 3}
+  roomTypes:
+  - {fileID: 7973053371279775161, guid: 9780200082f956043a3faf9c137578ca, type: 3}
+  tileCoords: []

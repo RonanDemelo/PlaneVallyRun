@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba84bc11ea3bb9d4187e9cbce427bd7a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hud: {instanceID: 0}
+  - landingGearDefaultMaterial: {instanceID: 0}
+  - landingGearBreaksMaterial: {instanceID: 0}
+  - deathEffect: {fileID: 583556257294016297, guid: 10799df6aa407644caa9ff72181626a1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
